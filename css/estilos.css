@@ -66,6 +66,9 @@ nav ul a.selector:hover{
 nav ul a#select{
     color: #000;
 }
+nav ul a#select2{
+    color: #ED6A16;
+}
 
 .logo{
     width: 20%;
@@ -238,6 +241,132 @@ footer p{
     height: 650px;
     overflow: hidden;
 }
+.logo2{
+    width: 43%;
+    /*width: 100%;
+    position: relative;
+    height: 220px;
+    background: url('../img/acapulco.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+}
 /*-------------servicios-----------------*/
+.banner3 {
+    width: 100%;
+    position: relative;
+    height: 650px;
+    background: url('../img/banner3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    clear: both;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #ED6A16;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #ED6A16;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #ED6A16;
+    border-radius: 5px;
+    text-align: center;
+    color: #ED6A16;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
 
 /*--------------------contacto-----------------*/
+.banner4 {
+    width: 100%;
+    position: relative;
+    height: 650px;
+    background: url('../img/banner4.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    clear: both;
+}
+.mapa{
+    width: 100%;
+}
+.mapa iframe{
+    width: 100%;
+}
+
+.second-portion
+        {
+            margin-top:50px; 
+        }
+
+                @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+        @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+        .box > .icon { text-align: center; position: relative; }
+        .box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #ED6A16; vertical-align: middle; }
+        .box > .icon:hover > .image { background: #333; }
+        .box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+        .box > .icon:hover > .image > i { color: white !important; }
+        .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+        .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+        .box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+        .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+        .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+        .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+        .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+        .box .space { height: 30px; }
+
+        @media only screen and (max-width: 768px)
+        {
+            .second-portion
+            {
+                margin-top:25px; 
+            }
+        }
+    /* Conatct end */
