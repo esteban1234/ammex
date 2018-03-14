@@ -100,13 +100,13 @@
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="../img/latino0303.jpg" class="img-responsive">
-                <div class="nameimg">Republica Checa</div>
+                <img src="../img/brasil01.jpg" class="img-responsive">
+                <div class="nameimg">Brasil</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="../img/latino0404.jpg" class="img-responsive">
-                <div class="nameimg">Laguna de Ruidera</div>
+                <img src="../img/argentina01.jpg" class="img-responsive">
+                <div class="nameimg">Argentina</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
@@ -120,8 +120,8 @@
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="../img/norteamerica0202.jpg" class="img-responsive">
-                <div class="nameimg">Iglesia Ortodoxa</div>
+                <img src="../img/toronto01.jpg" class="img-responsive">
+                <div class="nameimg">Toronto, Canada</div>
             </div>
         </div>
     </div>
