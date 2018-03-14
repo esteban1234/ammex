@@ -66,50 +66,62 @@
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
                 <img src="../img/aguazaul01.jpg" class="img-responsive">
+                <div class="nameimg">Agua Azul, Chiapas</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
                 <img src="../img/norteamerica0101.jpg" class="img-responsive">
+                <div class="nameimg">Estados Unidos</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
                 <img src="../img/monterrey01.jpg" class="img-responsive">
+                <div class="nameimg">Monterrey</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
                 <img src="../img/latino0101.jpg" class="img-responsive">
+                <div class="nameimg">Machu Picchu</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
                 <img src="../img/europa0101.jpg" class="img-responsive">
+                <div class="nameimg">Estrasburgo</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
                 <img src="../img/latino0202.jpg" class="img-responsive">
+                <div class="nameimg">Lima</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
                 <img src="../img/europa0202.jpg" class="img-responsive">
+                <div class="nameimg">Grecia</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
                 <img src="../img/latino0303.jpg" class="img-responsive">
+                <div class="nameimg">Republica Checa</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
                 <img src="../img/latino0404.jpg" class="img-responsive">
+                <div class="nameimg">Laguna de Ruidera</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
                 <img src="../img/toluca01.jpg" class="img-responsive">
+                <div class="nameimg">Toluca</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
                 <img src="../img/europa0303.jpg" class="img-responsive">
+                <div class="nameimg">Ámsterdam</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
                 <img src="../img/norteamerica0202.jpg" class="img-responsive">
+                <div class="nameimg">Iglesia Ortodoxa</div>
             </div>
         </div>
     </div>
