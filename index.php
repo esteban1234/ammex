@@ -12,6 +12,10 @@
 				<a class="selector" href="vistas/contacto.php">CONTACTO</a>
 			</ul>
 		</nav>
+        
+         <div class="op-menu">
+            <i class="fa fa-bars fa-1x i-menu" aria-hidden="true"></i>
+        </div>
 
 		<figure class="pull-right logo">
 			<img src="img/ammex.png" alt="AMMEX" class="img-responsive">
@@ -23,23 +27,25 @@
 				Encuentra los mejores paquetes turísticos
 			</div>
 			<div class="col-md-6 form1 pull-right">
-				<form action="#" method="post" class="form">
+				<form  method="post" class="form">
             <div class="get-in-touch">
-                <h3 class="text-center">
+                <h3 class="text-center txt-sc">
                    Solicita una cotización</h3>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Nombre" required/>
+                    <input type="text" class="form-control" id="txtNOMBRE" placeholder="Nombre" required/>
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Correo" required/>
+                    <input type="email" class="form-control" id="txtCORREO" placeholder="Correo" required/>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="Tel" placeholder="Teléfono" required/>
+                    <input type="text" class="form-control" id="txtTELEFONO" placeholder="Teléfono" required/>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
+                    <textarea id="txtCOMENTARIO" class="form-control" rows="3" placeholder="Mensaje" required></textarea>
                 </div>
-                <a href="#" class="btn btn-danger btn-sm btn-block" role="button"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
+                <input type="hidden" id="txtESTATUS" value="1">
+                <div id="_AJAX_PRE_"></div><br>
+                <a href="javascript:void(0)" class="btn btn-danger btn-sm btn-block" role="button" onclick="sendCORREO()"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
             </div>
             </form>
 			</div>
@@ -49,9 +55,9 @@
 
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
-      	<h1 class="text-center" style="color: #ED6A16;">Paquetes turísticos</h1> <br><br>
+      	<h1 class="text-center tit-pt" style="color: #ED6A16;">Paquetes turísticos</h1> <br class="delete-br"><br class="delete-br">
         <div class="row">
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <figure class="imagen">
             	<div class="fondoi">
             		<p class="text-right">
@@ -62,10 +68,10 @@
             		</p>
             	</div>
             </figure>
-            <h2 class="" style="color: #ED6A16;">Desde $ 884.50</h2>
-            <p>Precio total por persona</p>
+            <h2 class="txt-cantidad" style="color: #ED6A16;">Desde $ 884.50</h2>
+            <p class="precio-p">Precio total por persona</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <figure class="imagen1">
             	<div class="fondoi">
             		<p class="text-right">
@@ -76,10 +82,10 @@
             		</p>
             	</div>
             </figure>
-            <h2 class="" style="color: #ED6A16;">Desde $ 1284.50</h2>
-            <p>Precio total por persona</p>
+            <h2 class="txt-cantidad" style="color: #ED6A16;">Desde $ 1284.50</h2>
+            <p class="precio-p">Precio total por persona</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <figure class="imagen2">
             	<div class="fondoi">
             		<p class="text-right">
@@ -90,10 +96,10 @@
             		</p>
             	</div>
             </figure>
-            <h2 class="" style="color: #ED6A16;">Desde $ 994.50</h2>
-            <p>Precio total por persona</p>
+            <h2 class="txt-cantidad" style="color: #ED6A16;">Desde $ 994.50</h2>
+            <p class="precio-p">Precio total por persona</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <figure class="imagen3">
             	<div class="fondoi">
             		<p class="text-right">
@@ -104,8 +110,8 @@
             		</p>
             	</div>
             </figure>
-            <h2 class="" style="color: #ED6A16;">Desde $ 1104.50</h2>
-            <p>Precio total por persona</p>
+            <h2 class="txt-cantidad" style="color: #ED6A16;">Desde $ 1104.50</h2>
+            <p class="precio-p">Precio total por persona</p>
           </div>
         </div>
       </div>
@@ -126,5 +132,6 @@
 <script src="js/menu.js"></script>
 <script src="js/arriba.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/sendCORREO.js"></script>
 </body>
 </html>

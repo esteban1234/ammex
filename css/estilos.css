@@ -26,6 +26,7 @@ a.go-top:hover {
     background-color: black;
 }
 /*----------------INDEX-----------------*/
+.op-menu{display: none;}
 
 .nameimg{
     background: rgba(0,0,0,0.5);

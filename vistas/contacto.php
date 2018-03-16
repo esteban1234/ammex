@@ -12,13 +12,17 @@
 			</ul>
 		</nav>
 
+		 <div class="op-menu">
+            <i class="fa fa-bars fa-1x i-menu" aria-hidden="true"></i>
+        </div>
+
 		<figure class="pull-right logo">
 			<img src="../img/ammex.png" alt="AMMEX" class="img-responsive">
 		</figure>
 
 
 		<div class="tit-form1">
-			<div class=" col-md-6 tit pull-left text-right">
+			<div class=" col-md-6 tit pull-left text-right tit-contac">
 				¡Entérate primero <br> de las mejores ofertas!
 			</div>
 			<div class="col-md-6 form1 pull-right">
@@ -27,18 +31,20 @@
                 <h3 class="text-center">
                    Solicita una cotización</h3>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Nombre" required/>
+                    <input type="text" class="form-control" id="txtNOMBRE" placeholder="Nombre" required/>
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Correo" required/>
+                    <input type="email" class="form-control" id="txtCORREO" placeholder="Correo" required/>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="Tel" placeholder="Teléfono" required/>
+                    <input type="text" class="form-control" id="txtTELEFONO" placeholder="Teléfono" required/>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
+                    <textarea id="txtCOMENTARIO" class="form-control" rows="3" placeholder="Mensaje" required></textarea>
                 </div>
-                <a href="#" class="btn btn-danger btn-sm btn-block" role="button"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
+                 <div id="_AJAX_PRE_"></div><br>
+                <input type="hidden" id="txtESTATUS" value="2">
+                <a href="javascript:void(0)" class="btn btn-danger btn-sm btn-block" role="button" onclick="sendCORREO()"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
             </div>
             </form>
 			</div>
@@ -53,7 +59,7 @@
  <div class="container second-portion">
 	<div class="row">
         <!-- Boxes de Acoes -->
-    	<div class="col-md-3">
+    	<div class="col-sm-6 col-md-3">
 			<div class="box">							
 				<div class="icon">
 					<div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
@@ -72,7 +78,7 @@
 			</div> 
 		</div>
 			
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
 			<div class="box">							
 				<div class="icon">
 					<div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
@@ -87,8 +93,8 @@
 				<div class="space"></div>
 			</div> 
 		</div>
-			
-        <div class="col-md-3">
+		<div class="clearfix visible-sm"></div>
+        <div class="col-sm-6 col-md-3">
 			<div class="box">							
 				<div class="icon">
 					<div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
@@ -102,7 +108,7 @@
 			</div> 
 		</div>
 
-		<div class="col-md-3">
+		<div class="col-sm-6 col-md-3">
 			<div class="box">							
 				<div class="icon">
 					<div class="image"><i class="far fa-clock" aria-hidden="true"></i></div>
@@ -128,8 +134,8 @@
 <script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/arriba.js"></script>
-<script src="../js/funciondthc.js"></script>
+<!-- <script src="../js/funciondthc.js"></script> -->
 <script src="../js/menu.js"></script>
-<!-- <script src="../js/sendCORREO.js"></script> -->
+<script src="../js/sendCORREO.js"></script>
 </body>
 </html>

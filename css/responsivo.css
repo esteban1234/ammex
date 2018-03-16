@@ -1,0 +1,825 @@
+@media screen and (max-width: 480px){
+/*************** DISEÑO INDEX ********************/
+	.banner, .fondo, .banner2 ,.banner3, .banner4{
+		height: 100%;
+	}
+
+	.fondo{
+		padding: 10px 0px;
+	}
+
+	.op-menu{
+		/*border: 2px solid red;*/
+		border-radius: 5px;
+		position: absolute;
+		right: 45px;
+		top: 15px;
+		cursor: pointer;
+		padding: 10px;
+		background: rgba(255,255,255,0.8);
+		color: #000;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		z-index: 2;
+		width: 65%;
+		float: none !important;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		height: 100%;
+		background: rgba(255, 64, 0, 0.9);
+	}
+
+	nav ul .selector{
+		display: block;
+		border-bottom: .5px solid rgba(255,255,255,0.2);
+		text-align: center;
+	}
+
+	.logo{
+		margin: auto;
+		float: none !important;
+		width: 35%;
+	}
+
+	.tit{
+		font-size: 23px;
+		padding: 20px 10px;
+		text-align: center;
+		font-weight: bold;
+
+	}
+
+	.tit-form1{
+		margin: 0px;
+		height: 100%;
+	}
+
+
+
+	.form1{
+		width: 100%;
+	}
+
+	form{
+		height: 100%;
+	}
+
+	.get-in-touch{
+		height: 100%;
+		padding-top: 10px !important;
+	}
+
+	.txt-sc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*form{
+	}*/
+
+	.get-in-touch{
+		padding-top: 10px;
+	}
+
+	.tit-pt{
+		/*border: 2px solid red;*/
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.cuadro:hover{
+    	border-bottom: 0px;
+	}
+
+	.txt-cantidad{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.precio-p{
+		text-align: center;
+	}
+
+	.imagen, .imagen1, .imagen2, .imagen3, .fondoi{
+		height: 100%;
+	}
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO NOSOTROS ********************/
+	.tit-pammex, .tit-ecn{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.cont-i{
+		text-align: center;
+	}
+
+	.fas{
+		padding: 20px 0px;
+	}
+
+	.tit-alp{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.subtit-alp, .subtit-rcv{
+		text-align: center;
+	}
+
+	.logo2{
+		margin: auto;
+	}
+
+	.tit-nmv{
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.txt-nmv{
+		text-align: justify;
+		font-size: 18px;
+	}
+
+	.tit-rcv{
+		text-align: center;
+	}
+/*************** END DISEÑO NOSOTROS ****************/
+
+/*************** DISEÑO SERVICIOS ********************/
+	.tit-serv, .tit-contac{
+		width: 100%;
+	}
+
+	.gallery-title{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-op{
+		width: 90% !important;
+		margin: auto;
+	}
+
+	.cont-op button{
+		display: block;
+		width: 50%;
+		margin: 5px 0px;
+	}
+/*************** END DISEÑO SERVICIOS ****************/
+
+/*************** DISEÑO INDEX ********************/
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO FOOTER ********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+/*************** END DISEÑO FOOTER ****************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	/*************** DISEÑO INDEX ********************/
+	.banner, .fondo, .banner2, .banner3, .banner4{
+		height: 100%;
+	}
+
+	.fondo{
+		padding: 10px 0px;
+	}
+
+	.op-menu{
+		/*border: 2px solid red;*/
+		border-radius: 5px;
+		position: absolute;
+		right: 45px;
+		top: 15px;
+		cursor: pointer;
+		padding: 10px;
+		background: rgba(255,255,255,0.8);
+		color: #000;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		z-index: 2;
+		width: 65%;
+		float: none !important;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		height: 100%;
+		background: rgba(255, 64, 0, 0.9);
+	}
+
+	nav ul .selector{
+		display: block;
+		border-bottom: .5px solid rgba(255,255,255,0.2);
+		text-align: center;
+	}
+
+	.logo{
+		margin: auto;
+		float: none !important;
+		width: 35%;
+	}
+
+	.tit{
+		font-size: 23px;
+		padding: 20px 10px;
+		text-align: center;
+		/*border: 2px solid red;*/
+		width: 100%;
+		font-weight: bold;
+
+	}
+
+	.tit-form1{
+		margin: 0px;
+		height: 100%;
+	}
+
+
+
+	.form1{
+		width: 100%;
+	}
+
+	form{
+		height: 100%;
+	}
+
+	.get-in-touch{
+		height: 100%;
+		padding-top: 10px !important;
+	}
+
+	.txt-sc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*form{
+	}*/
+
+	.get-in-touch{
+		padding-top: 10px;
+	}
+
+	.tit-pt{
+		/*border: 2px solid red;*/
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.cuadro:hover{
+    	border-bottom: 0px;
+	}
+
+	.txt-cantidad{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.precio-p{
+		text-align: center;
+	}
+
+	.imagen, .imagen1, .imagen2, .imagen3, .fondoi{
+		height: 100%;
+	}
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO NOSOTROS ********************/
+	.tit-pammex, .tit-ecn{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.cont-i{
+		text-align: center;
+	}
+
+	.fas{
+		padding: 20px 0px;
+	}
+
+	.tit-alp{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.subtit-alp, .subtit-rcv{
+		text-align: center;
+	}
+
+	.logo2{
+		margin: auto;
+	}
+
+	.tit-nmv{
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.txt-nmv{
+		text-align: justify;
+		font-size: 18px;
+	}
+
+	.tit-rcv{
+		text-align: center;
+	}
+/*************** END DISEÑO NOSOTROS ****************/
+
+/*************** DISEÑO SERVICIOS ********************/
+
+
+	.tit-serv, .tit-contac{
+		width: 100%;
+	}
+
+	.gallery-title{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-op{
+		width: 90% !important;
+		margin: auto;
+	}
+
+	.cont-op button{
+		display: block;
+		width: 50%;
+		margin: 5px 0px;
+	}
+/*************** END DISEÑO SERVICIOS ****************/
+
+/*************** DISEÑO INDEX ********************/
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO FOOTER ********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+/*************** END DISEÑO FOOTER ****************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	/*************** DISEÑO INDEX ********************/
+	.banner, .fondo, .banner2, .banner3, .banner4{
+		height: 100%;
+	}
+
+	.fondo{
+		padding: 10px 0px;
+	}
+
+	.op-menu{
+		/*border: 2px solid red;*/
+		border-radius: 5px;
+		position: absolute;
+		right: 45px;
+		top: 15px;
+		cursor: pointer;
+		padding: 10px;
+		background: rgba(255,255,255,0.8);
+		color: #000;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		z-index: 2;
+		width: 65%;
+		float: none !important;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		height: 100%;
+		background: rgba(255, 64, 0, 0.9);
+	}
+
+	nav ul .selector{
+		display: block;
+		border-bottom: .5px solid rgba(255,255,255,0.2);
+		text-align: center;
+	}
+
+	.logo{
+		margin: auto;
+		float: none !important;
+		width: 35%;
+	}
+
+	.tit{
+		font-size: 23px;
+		padding: 20px 10px;
+		text-align: center;
+		/*border: 2px solid red;*/
+		width: 100%;
+		font-weight: bold;
+
+	}
+
+	.tit-form1{
+		margin: 0px;
+		height: 100%;
+	}
+
+
+
+	.form1{
+		width: 100%;
+	}
+
+	form{
+		height: 100%;
+	}
+
+	.get-in-touch{
+		height: 100%;
+		padding-top: 10px !important;
+	}
+
+	.txt-sc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*form{
+	}*/
+
+	.get-in-touch{
+		padding-top: 10px;
+	}
+
+	.tit-pt{
+		/*border: 2px solid red;*/
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.cuadro:hover{
+    	border-bottom: 0px;
+	}
+
+	.txt-cantidad{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.precio-p{
+		text-align: center;
+	}
+
+	.imagen, .imagen1, .imagen2, .imagen3, .fondoi{
+		height: 100%;
+	}
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO NOSOTROS ********************/
+	.tit-pammex, .tit-ecn{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.cont-i{
+		text-align: center;
+	}
+
+	.fas{
+		padding: 20px 0px;
+	}
+
+	.tit-alp{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.subtit-alp, .subtit-rcv{
+		text-align: center;
+	}
+
+	.logo2{
+		margin: auto;
+	}
+
+	.tit-nmv{
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.txt-nmv{
+		text-align: justify;
+		font-size: 18px;
+	}
+
+	.tit-rcv{
+		text-align: center;
+	}
+
+	.tamano-i{
+		font-size: 55px;
+	}
+/*************** END DISEÑO NOSOTROS ****************/
+
+/*************** DISEÑO SERVICIOS ********************/
+
+
+	.tit-serv, .tit-contac{
+		width: 100%;
+	}
+
+	.gallery-title{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-op{
+		width: 90% !important;
+		margin: auto;
+	}
+
+	.cont-op button{
+		display: block;
+		width: 50%;
+		margin: 5px 0px;
+	}
+/*************** END DISEÑO SERVICIOS ****************/
+
+/*************** DISEÑO INDEX ********************/
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO FOOTER ********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+/*************** END DISEÑO FOOTER ****************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	/*************** DISEÑO INDEX ********************/
+	.banner, .fondo, .banner2, .banner3, .banner4{
+		height: 100%;
+	}
+
+	.fondo{
+		padding: 10px 0px;
+	}
+
+	.op-menu{
+		/*border: 2px solid red;*/
+		border-radius: 5px;
+		position: absolute;
+		right: 45px;
+		top: 15px;
+		cursor: pointer;
+		padding: 10px;
+		background: rgba(255,255,255,0.8);
+		color: #000;
+		font-size: 20px;
+		font-weight: bold;
+		display: block;
+	}
+
+	nav{
+		display: none;
+		position: fixed;
+		z-index: 2;
+		width: 65%;
+		float: none !important;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		height: 100%;
+		background: rgba(255, 64, 0, 0.9);
+	}
+
+	nav ul .selector{
+		display: block;
+		border-bottom: .5px solid rgba(255,255,255,0.2);
+		text-align: center;
+	}
+
+	.logo{
+		margin: auto;
+		float: none !important;
+		width: 35%;
+	}
+
+	.tit{
+		font-size: 23px;
+		padding: 20px 10px;
+		text-align: center;
+		/*border: 2px solid red;*/
+		width: 100%;
+		font-weight: bold;
+
+	}
+
+	.tit-form1{
+		margin: 0px;
+		height: 100%;
+	}
+
+
+
+	.form1{
+		width: 100%;
+	}
+
+	form{
+		height: 100%;
+	}
+
+	.get-in-touch{
+		height: 100%;
+		padding-top: 10px !important;
+	}
+
+	.txt-sc{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	/*form{
+	}*/
+
+	.get-in-touch{
+		padding-top: 10px;
+	}
+
+	.tit-pt{
+		/*border: 2px solid red;*/
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.cuadro:hover{
+    	border-bottom: 0px;
+	}
+
+	.txt-cantidad{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.precio-p{
+		text-align: center;
+	}
+
+	.imagen, .imagen1, .imagen2, .imagen3, .fondoi{
+		height: 100%;
+	}
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO NOSOTROS ********************/
+	.tit-pammex, .tit-ecn{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.cont-i{
+		text-align: center;
+	}
+
+	.fas{
+		padding: 20px 0px;
+	}
+
+	.tit-alp{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.subtit-alp, .subtit-rcv{
+		text-align: center;
+	}
+
+	.logo2{
+		margin: auto;
+	}
+
+	.tit-nmv{
+		text-align: center;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.txt-nmv{
+		text-align: justify;
+		font-size: 18px;
+	}
+
+	.tit-rcv{
+		text-align: center;
+	}
+
+	.tamano-i{
+		font-size: 55px;
+	}
+/*************** END DISEÑO NOSOTROS ****************/
+
+/*************** DISEÑO SERVICIOS ********************/
+
+
+	.tit-serv, .tit-contac{
+		width: 100%;
+	}
+
+	.gallery-title{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.cont-op{
+		width: 90% !important;
+		margin: auto;
+	}
+
+	.cont-op button{
+		display: block;
+		width: 50%;
+		margin: 5px 0px;
+	}
+/*************** END DISEÑO SERVICIOS ****************/
+
+/*************** DISEÑO INDEX ********************/
+/*************** END DISEÑO INDEX ****************/
+
+/*************** DISEÑO FOOTER ********************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+/*************** END DISEÑO FOOTER ****************/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
